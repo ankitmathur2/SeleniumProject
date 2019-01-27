@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" verbose="10">
+
+  <test name="Test+QA">
+  <parameter name="url" value="https://www.indeed.com/"></parameter>
+  <parameter name="jobType" value="QA Tester"></parameter>
+  <parameter name="city" value="Charlotte, NC"></parameter>
+  <classes>  
+  <class name="org.Ankit.SeleniumGoogle.seleniummavenfirst.ParametersEx"> </class>
+  </classes>
+   </test> <!-- Test -->
+   
+</suite> <!-- Suite -->
